@@ -1,0 +1,80 @@
+.landing-container{
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+    width: 100%;
+    background: url('./landing_darkom2.jfif') no-repeat;
+    background-size: cover;
+}
+.dark-div{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.landing-wrapper span{
+    color: rgb(255, 123, 0);
+}
+h2{
+    font-size: 30px;
+}
+h1{
+    font-size: 50px;
+}
+
+.landing-btns{
+    height: 20vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 20px 50px;
+    display: inline-block;
+    border-radius: 30px;
+    background-color:  rgb(255, 123, 0);
+    z-index:3;
+    font-weight:600;
+}
+#btn-white{
+    margin-left: -50px;
+    padding-left:60px;
+    background-color:white;
+    z-index:1;
+    color:gray;
+    
+}
+
+@media screen and (max-width:800px ){
+
+    .landing-wrapper h2{
+        font-size: 20px;
+    }
+    .landing-wrapper h1{
+        font-size: 25px;
+    }
+    .landing-btns{
+        flex-direction: column;
+        
+    }
+
+    .landing-btns .btn{
+        font-size: 12px;
+        padding:10px 20px;
+        width:50%;
+        text-align: center;
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: center;
+        justify-items: center;
+    }
+    #btn-white{
+        margin: 0;
+        padding: 10px 20px;
+    }
+
+}

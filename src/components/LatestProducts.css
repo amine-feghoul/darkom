@@ -1,0 +1,24 @@
+.our-latest-products-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.our-latest-products-wrapper{
+    width: 100%;
+    display: flex;  
+    flex-direction: column  ;
+    align-items: center;
+}
+.products-grid{
+    
+    margin-top: 30px;
+    width: 80%;
+    display: grid;
+    justify-self: center;
+    grid-template-columns: repeat(auto-fit,minmax(300px,2fr));
+    grid-row-gap: 20px;
+    justify-items: center;
+}
